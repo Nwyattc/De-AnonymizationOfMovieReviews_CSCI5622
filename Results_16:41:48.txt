@@ -1,0 +1,29 @@
+Results:
+
+
+For samples:0 to 5000
+Leaderboard:          rank  ensemble_weight                 type      cost   duration
+model_id                                                                 
+6            1             0.18          extra_trees  0.045198  23.468878
+2            2             0.10        random_forest  0.049718  38.542156
+5            3             0.02  k_nearest_neighbors  0.209492   1.052829
+3            4             0.70                  sgd  0.995480   7.419143
+Training R2 score: 0.9691337648059469
+Test R2 score: 0.9147171411991506
+
+For samples:5000 to 10000
+Leaderboard:          rank  ensemble_weight           type      cost   duration
+model_id                                                           
+2            1             0.18  random_forest  0.026946  23.305476
+5            2             0.08    extra_trees  0.030240  13.791648
+7            3             0.38       adaboost  0.993713  17.210000
+3            4             0.36            sgd  0.999401   5.981591
+Training R2 score: 0.9844159931813533
+Test R2 score: 0.922169351846638
+
+For samples:10000 to 15000
+Leaderboard:          rank  ensemble_weight           type      cost   duration
+model_id                                                           
+2            1              1.0  random_forest  0.052419  46.546625
+Training R2 score: 0.9641613961211242
+Test R2 score: 0.8951400054810023

@@ -1,0 +1,70 @@
+Results:
+
+
+For samples:0 to 1000
+Leaderboard:          rank  ensemble_weight                type      cost   duration
+model_id                                                                
+2            1             0.06       random_forest  0.048426   2.424745
+17           2             0.06         extra_trees  0.050847   2.327255
+6            3             0.08       random_forest  0.055690   2.955207
+18           4             0.02   gradient_boosting  0.075061  11.077804
+16           5             0.14                 lda  0.077482   6.891273
+20           6             0.02       random_forest  0.147700   2.333630
+3            7             0.02          libsvm_svc  0.159806   1.088754
+11           8             0.02          libsvm_svc  0.259080   1.256394
+21           9             0.10  passive_aggressive  0.259080   2.071583
+12          10             0.42                 sgd  0.847458  11.507761
+4           11             0.06            adaboost  0.958838   2.143503
+Training R2 score: 0.9771334443886616
+Test R2 score: 0.9246373585334098
+
+For samples:1000 to 2000
+Leaderboard:          rank  ensemble_weight               type      cost   duration
+model_id                                                               
+4            1             0.12      random_forest  0.008333   5.244691
+14           2             0.10  gradient_boosting  0.009848  27.321389
+13           3             0.04  gradient_boosting  0.014394  34.810236
+2            4             0.18      random_forest  0.016667   3.777277
+3            5             0.08      random_forest  0.017424   3.171647
+5            6             0.12      random_forest  0.025758   8.617163
+8            7             0.04      random_forest  0.025758  11.883187
+10           8             0.04      random_forest  0.040909  41.126594
+11           9             0.12         libsvm_svc  0.164394   7.069181
+6           10             0.16           adaboost  0.877273   3.794003
+Training R2 score: 0.9827292782975605
+Test R2 score: 0.8332454716910861
+
+For samples:2000 to 3000
+Leaderboard:          rank  ensemble_weight               type      cost   duration
+model_id                                                               
+2            1             0.16      random_forest  0.029096   2.927939
+17           2             0.22                lda  0.029096   7.160239
+19           3             0.02  gradient_boosting  0.033691  23.992748
+20           4             0.06      random_forest  0.033691   2.599868
+4            5             0.14      random_forest  0.035222   3.789317
+14           6             0.04  gradient_boosting  0.035222  18.334985
+16           7             0.02  gradient_boosting  0.035222  13.639913
+5            8             0.06         libsvm_svc  0.101072   1.396254
+3            9             0.10           adaboost  0.900459   2.492404
+13          10             0.08         libsvm_svc  0.984686   2.046374
+7           11             0.10                sgd  0.987749   1.039834
+Training R2 score: 0.9761528267566026
+Test R2 score: 0.8893723911597238
+
+For samples:3000 to 4000
+Leaderboard:          rank  ensemble_weight                 type      cost   duration
+model_id                                                                 
+2            1             0.10        random_forest  0.063348   2.332768
+20           2             0.10        random_forest  0.063348   2.099932
+18           3             0.04    gradient_boosting  0.065611  15.804428
+6            4             0.06                  mlp  0.083710   2.604199
+3            5             0.08        random_forest  0.090498   3.078668
+13           6             0.02        random_forest  0.095023   5.023978
+5            7             0.16           libsvm_svc  0.110860   1.125479
+10           8             0.06  k_nearest_neighbors  0.251131   0.864079
+8            9             0.02           libsvm_svc  0.273756   1.446260
+14          10             0.02           libsvm_svc  0.497738   1.457924
+12          11             0.12                  sgd  0.703620  11.887209
+4           12             0.22             adaboost  0.875566   2.638188
+Training R2 score: 0.9408959942615324
+Test R2 score: 0.8189427906433058

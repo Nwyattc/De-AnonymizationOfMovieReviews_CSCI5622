@@ -1,0 +1,10 @@
+Results:
+
+
+For samples:0 to 8000
+Leaderboard:          rank  ensemble_weight           type      cost   duration
+model_id                                                           
+2            1              0.4  random_forest  0.052347  82.349048
+5            2              0.6    extra_trees  0.054574  53.360352
+Training R2 score: 0.9598227213912962
+Test R2 score: 0.8842062375197186

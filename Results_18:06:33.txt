@@ -1,0 +1,18 @@
+Results:
+
+
+For samples:0 to 7500
+Leaderboard:          rank  ensemble_weight         type      cost   duration
+model_id                                                         
+5            1              1.0  extra_trees  0.049581  49.128922
+Training R2 score: 0.9641471440596735
+Test R2 score: 0.901742544174987
+
+For samples:7500 to 15000
+Leaderboard:          rank  ensemble_weight                 type      cost   duration
+model_id                                                                 
+5            1             0.48  k_nearest_neighbors  0.187856   1.307269
+3            2             0.52                  sgd  0.998780  15.166235
+Training R2 score: 0.8608057365010476
+Test R2 score: 0.5992184842670571
+

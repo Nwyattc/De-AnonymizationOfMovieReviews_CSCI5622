@@ -1,0 +1,254 @@
+Results:
+
+
+For samples:0 to 6000
+Leaderboard:          rank  ensemble_weight           type      cost   duration
+model_id                                                           
+5            1             0.04    extra_trees  0.046774  28.354778
+2            2             0.02  random_forest  0.049488  48.440703
+9            3             0.76       adaboost  0.993944  26.483565
+3            4             0.18            sgd  0.999374   8.776394
+Training R2 score: 0.9637817815874838
+Test R2 score: 0.890338633931871
+
+For samples:6000 to 12000
+Leaderboard:          rank  ensemble_weight           type      cost   duration
+model_id                                                           
+8            1             0.12    extra_trees  0.040409  36.607919
+2            2             0.08  random_forest  0.042777  57.273296
+9            3             0.74       adaboost  0.998224  41.832575
+3            4             0.06            sgd  0.999704  15.330246
+Training R2 score: 0.9724015846332242
+Test R2 score: 0.9070845690129549
+
+For samples:12000 to 18000
+Leaderboard:          rank  ensemble_weight                 type      cost   duration
+model_id                                                                 
+2            1             0.16        random_forest  0.051259  35.014140
+5            2             0.20          extra_trees  0.054898  21.589345
+6            3             0.02  k_nearest_neighbors  0.238702   0.917943
+12           4             0.38                  lda  0.249924  24.024704
+7            5             0.24             adaboost  0.989384  17.762716
+Training R2 score: 0.9720482807281471
+Test R2 score: 0.8681161315069874
+
+For samples:18000 to 24000
+Leaderboard:          rank  ensemble_weight           type      cost   duration
+model_id                                                           
+2            1              1.0  random_forest  0.038231  38.151926
+Training R2 score: 0.9752487448820937
+Test R2 score: 0.8924925623274574
+
+For samples:24000 to 30000
+Leaderboard:          rank  ensemble_weight           type      cost   duration
+model_id                                                           
+8            1             0.04    extra_trees  0.050708  38.735872
+2            2             0.02  random_forest  0.051550  59.235010
+9            3             0.94       adaboost  0.996125  29.941435
+Training R2 score: 0.9649708968155963
+Test R2 score: 0.866131943201994
+
+For samples:30000 to 36000
+Leaderboard:          rank  ensemble_weight           type      cost   duration
+model_id                                                           
+4            1             0.10    extra_trees  0.076441  15.645217
+2            2             0.06  random_forest  0.080618  24.440321
+11           3             0.34            lda  0.208020  21.003686
+7            4             0.26       adaboost  0.974520  12.743410
+3            5             0.24            sgd  0.999582   4.725981
+Training R2 score: 0.9504807811539207
+Test R2 score: 0.8273359558819708
+
+For samples:36000 to 42000
+Leaderboard:          rank  ensemble_weight               type      cost   duration
+model_id                                                               
+2            1             0.08      random_forest  0.039633  21.882195
+4            2             0.04        extra_trees  0.046972  13.580504
+12           3             0.22                lda  0.127339  20.952246
+5            4             0.02         libsvm_svc  0.225688  69.762893
+6            5             0.36           adaboost  0.988257  14.174822
+10           6             0.02  gradient_boosting  0.991193  70.521751
+9            7             0.02  gradient_boosting  0.995229  70.612174
+3            8             0.24                sgd  0.999266   4.911535
+Training R2 score: 0.9732513400712087
+Test R2 score: 0.8927008101350439
+
+For samples:42000 to 48000
+Leaderboard:          rank  ensemble_weight                 type      cost   duration
+model_id                                                                 
+2            1             0.10        random_forest  0.060366  28.342024
+4            2             0.02          extra_trees  0.069334  17.964830
+10           3             0.38                  lda  0.238013  24.200091
+6            4             0.02  k_nearest_neighbors  0.265609   0.882906
+13           5             0.02           libsvm_svc  0.272508  79.866334
+8            6             0.02    gradient_boosting  0.915488  84.243686
+7            7             0.24             adaboost  0.988272  15.452603
+12           8             0.02    gradient_boosting  0.992756  80.438137
+3            9             0.18                  sgd  0.998275   5.436296
+Training R2 score: 0.9582926640934797
+Test R2 score: 0.8567112100721794
+
+For samples:48000 to 54000
+Leaderboard:          rank  ensemble_weight           type      cost   duration
+model_id                                                           
+5            1             0.08    extra_trees  0.037908  21.195161
+2            2             0.04  random_forest  0.039107  35.871461
+9            3             0.88       adaboost  0.994722  21.414862
+Training R2 score: 0.9679726469727861
+Test R2 score: 0.8859570121229553
+
+For samples:54000 to 60000
+Leaderboard:          rank  ensemble_weight           type      cost   duration
+model_id                                                           
+10           1              0.2    extra_trees  0.041142  29.347663
+2            2              0.1  random_forest  0.048657  48.313570
+8            3              0.7       adaboost  0.996806  27.322188
+Training R2 score: 0.9721249179496418
+Test R2 score: 0.9100554304247469
+
+For samples:60000 to 66000
+Leaderboard:          rank  ensemble_weight                 type      cost   duration
+model_id                                                                 
+2            1             0.16        random_forest  0.054913  19.954238
+4            2             0.10          extra_trees  0.059730  11.957237
+9            3             0.22                  lda  0.142100  21.100015
+8            4             0.02           libsvm_svc  0.234586  47.096664
+6            5             0.02  k_nearest_neighbors  0.307322   0.862359
+11           6             0.04           libsvm_svc  0.327553  48.299833
+10           7             0.02    gradient_boosting  0.952312  71.030461
+7            8             0.20             adaboost  0.985067  11.600428
+12           9             0.02    gradient_boosting  0.987958  63.764433
+14          10             0.02           libsvm_svc  0.991811  53.078400
+3           11             0.18                  sgd  0.999037   4.177151
+Training R2 score: 0.9704813148032776
+Test R2 score: 0.8947950253017718
+
+For samples:66000 to 72000
+Leaderboard:          rank  ensemble_weight           type      cost   duration
+model_id                                                           
+8            1             0.06    extra_trees  0.067699  36.845759
+2            2             0.02  random_forest  0.081706  57.325591
+9            3             0.92       adaboost  0.995756  29.965742
+Training R2 score: 0.9582585583745794
+Test R2 score: 0.8723820692776658
+
+For samples:72000 to 78000
+Leaderboard:          rank  ensemble_weight           type      cost   duration
+model_id                                                           
+2            1             0.06  random_forest  0.046129  38.477558
+5            2             0.04    extra_trees  0.050011  23.164843
+9            3             0.90       adaboost  0.995661  22.131441
+Training R2 score: 0.9685801701159292
+Test R2 score: 0.8848737820213213
+
+For samples:78000 to 84000
+Leaderboard:          rank  ensemble_weight           type      cost   duration
+model_id                                                           
+4            1             0.10    extra_trees  0.055638  13.219840
+2            2             0.06  random_forest  0.058122  22.042762
+9            3             0.36            lda  0.186289  21.847665
+5            4             0.02     libsvm_svc  0.310979  55.056421
+6            5             0.46       adaboost  0.985594  11.510394
+Training R2 score: 0.965406783582428
+Test R2 score: 0.8337267165617873
+
+For samples:84000 to 90000
+Leaderboard:          rank  ensemble_weight                 type      cost   duration
+model_id                                                                 
+2            1             0.04        random_forest  0.049980  49.589686
+8            2             0.10          extra_trees  0.053027  29.826820
+5            3             0.02  k_nearest_neighbors  0.229785   0.997773
+3            4             0.08                  sgd  0.995733   9.170844
+9            5             0.76             adaboost  0.997359  27.943516
+Training R2 score: 0.9662624465581469
+Test R2 score: 0.8737053031558293
+
+For samples:90000 to 96000
+Leaderboard:          rank  ensemble_weight               type      cost   duration
+model_id                                                               
+2            1             0.12      random_forest  0.055528  21.121726
+4            2             0.04        extra_trees  0.071036  12.394872
+9            3             0.60                lda  0.160080  20.136552
+8            4             0.02         libsvm_svc  0.257129  43.856480
+5            5             0.02         libsvm_svc  0.287644  48.128533
+10           6             0.02  gradient_boosting  0.924462  68.185951
+12           7             0.02  gradient_boosting  0.974487  60.497496
+7            8             0.12           adaboost  0.975488  11.117824
+3            9             0.04                sgd  0.997499   4.534025
+Training R2 score: 0.9670688509219199
+Test R2 score: 0.8547339380369654
+
+For samples:96000 to 102000
+Leaderboard:          rank  ensemble_weight               type      cost   duration
+model_id                                                               
+2            1             0.16      random_forest  0.053906  23.606732
+4            2             0.08        extra_trees  0.062500  13.702230
+9            3             0.46                lda  0.175391  21.850893
+5            4             0.02         libsvm_svc  0.262891  67.355237
+8            5             0.02  gradient_boosting  0.979688  80.420025
+14           6             0.02         libsvm_svc  0.985156  72.090620
+7            7             0.22           adaboost  0.987109  14.077485
+13           8             0.02  gradient_boosting  0.988672  78.595616
+Training R2 score: 0.9648309418067348
+Test R2 score: 0.8660446393783585
+
+For samples:102000 to 108000
+Leaderboard:          rank  ensemble_weight                 type      cost   duration
+model_id                                                                 
+2            1             0.46        random_forest  0.038343  28.859939
+5            2             0.02          extra_trees  0.045455  18.036777
+6            3             0.04  k_nearest_neighbors  0.213358   1.051239
+7            4             0.48             adaboost  0.975572  20.031149
+Training R2 score: 0.9781861641469161
+Test R2 score: 0.9096144340955297
+
+For samples:108000 to 114000
+Leaderboard:          rank  ensemble_weight           type      cost   duration
+model_id                                                           
+2            1             0.06  random_forest  0.066181  37.772604
+5            2             0.10    extra_trees  0.070554  22.832222
+12           3             0.32            lda  0.260933  29.731997
+8            4             0.52       adaboost  0.994752  21.484880
+Training R2 score: 0.9619111696806973
+Test R2 score: 0.8730843873647004
+
+For samples:114000 to 120000
+Leaderboard:          rank  ensemble_weight                 type      cost   duration
+model_id                                                                 
+2            1              0.4        random_forest  0.045662  27.987216
+5            2              0.5          extra_trees  0.052185  16.867459
+7            3              0.1  k_nearest_neighbors  0.207763   1.229617
+Training R2 score: 0.9744321584683416
+Test R2 score: 0.8737886638084978
+
+For samples:120000 to 126000
+Leaderboard:          rank  ensemble_weight           type      cost   duration
+model_id                                                           
+8            1             0.04    extra_trees  0.043248  43.073441
+2            2             0.02  random_forest  0.053190  66.931862
+9            3             0.94       adaboost  0.990389  36.830021
+Training R2 score: 0.9674314924749546
+Test R2 score: 0.9029241013879452
+
+For samples:126000 to 132000
+Leaderboard:          rank  ensemble_weight           type      cost   duration
+model_id                                                           
+2            1             0.04  random_forest  0.047104  68.763567
+8            2             0.06    extra_trees  0.048234  44.798134
+9            3             0.72       adaboost  0.994515  37.288077
+3            4             0.18            sgd  0.998871  12.336683
+Training R2 score: 0.9551163777361588
+Test R2 score: 0.8627339441669152
+
+For samples:132000 to 138000
+Leaderboard:          rank  ensemble_weight               type      cost   duration
+model_id                                                               
+2            1             0.10      random_forest  0.058918  25.042709
+4            2             0.08        extra_trees  0.066533  15.137573
+10           3             0.52                lda  0.186774  26.752001
+11           4             0.02  gradient_boosting  0.969940  87.873223
+8            5             0.02         libsvm_svc  0.986373  68.614329
+7            6             0.14           adaboost  0.989579  15.213063
+3            7             0.12                sgd  0.999198   5.258443
+Training R2 score: 0.9587113898430343
+Test R2 score: 0.8129450903822296
